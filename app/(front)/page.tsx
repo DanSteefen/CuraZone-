@@ -1,3 +1,4 @@
+import DoctorsList from "@/components/DoctorsList";
 import Brand from "@/components/Frontend/Brands";
 import Hero from "@/components/Frontend/Hero";
 import { MegaMenu } from "@/components/Frontend/MegaMenu";
@@ -11,6 +12,8 @@ export default function Home(){
         <Hero/>
         <Brand/>
         <TabbedSection/>
+        <DoctorsList/>
+        <DoctorsList className="bg-white py-8 lg:py24" title="In-person doctor visit" isInPerson = {true}/>
     </section>
   );
 }

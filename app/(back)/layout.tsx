@@ -1,10 +1,17 @@
+import NavBar from '@/components/Dashboard/NavBar';
+import Sidebar from '@/components/Dashboard/SideBar';
 import React, { ReactNode } from 'react'
 
-function Layout({children} : {children:ReactNode}) {
+function Layout({ children }: { children: ReactNode }) {
   return (
     <div>
-        <h2>dashboard only</h2>
-        {children}
+        <NavBar />
+      <div className='flex'>
+        <Sidebar />
+        <div className='p-8'>
+          {children}
+        </div>
+      </div>
     </div>
   )
 }
