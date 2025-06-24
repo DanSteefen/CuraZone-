@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react'
+import Avalability from './Avalability';
 
 function DoctorDetails() {
 
@@ -24,7 +25,7 @@ function DoctorDetails() {
       <div className='py-8 px-6'>
         {isActive === "availabilithy" ? (
           <div>
-            Availability Details Component
+            <Avalability/>
           </div>
         ) : (
           <div>

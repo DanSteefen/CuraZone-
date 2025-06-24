@@ -36,7 +36,7 @@ function navbar() {
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+              src="/medical.png"
               className="h-8 w-auto"
             />
           </a>
@@ -78,7 +78,7 @@ function navbar() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://images.app.goo.gl/mw7jS3hc3DzrrEVQ6=600"
+                src="/medical.png"
                 className="h-8 w-auto"
               />
             </a>
